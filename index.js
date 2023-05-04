@@ -9,7 +9,9 @@ app.get('/', (req, res)=>{
     res.send('running on port');
 })
 
-
+app.get('/chefs', (req, res) => {
+    res.send(chefs);
+})
 
 app.listen(port, () => {
     console.log('chef server');
