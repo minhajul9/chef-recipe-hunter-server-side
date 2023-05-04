@@ -1,10 +1,14 @@
 const express = require('express');
-
+const cors = require('cors')
 const app = express();
 const port = 5000;
 
+
 const chefs = require('./data/chefs.json')
 const recipe = require('./data/recipe.json')
+
+
+app.use(cors())
 
 app.get('/', (req, res)=>{
     res.send('running on port');
@@ -27,9 +31,10 @@ app.get('/recipe', (req, res)=>{
 
 app.get('/recipe/:name', (req, res)=>{
 
-    const name = req.params.name.toLowerCase;
+    const newName = req.params.name;
+    console.log(newName);
     
-    const select = recipe.find( rc => rc.name.toLowerCase === name);
+    const select = recipe.find( rc => rc.name == newName);
     res.send(select)
     
 

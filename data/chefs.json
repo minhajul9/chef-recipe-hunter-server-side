@@ -3,42 +3,56 @@
         "id": 1,
         "name": "Monirul Islam",
         "photo": "https://cdn-icons-png.flaticon.com/512/3063/3063402.png",
+        "years_of_experience": 8,
+        "likes": 4553,
+        "bio": "Chef Monirul Islam is a renowned chef from Dhaka, Bangladesh. He has over 20 years of experience in cooking traditional Bangladeshi cuisine and has won multiple awards for his culinary skills. He is known for his expertise in preparing Kacchi Biriyani and Shorshe Ilish.",
         "recipes": [
-            "Shorshe Ilish",
-            "Kacchi Biriyani",
-            "Beef Kala Bhuna",
-            "Sheek Kebab with Naan"
+            "Shorshe_Ilish",
+            "Kacchi_Biriyani",
+            "Beef_Kala_Bhuna",
+            "Sheek_Kebab_with_Naan"
         ]
     },
     {
         "id": 2,
         "name": "Mawa Begum",
         "photo": "https://img.freepik.com/free-icon/chef_318-699042.jpg?w=360",
+        "years_of_experience": 10,
+        "likes": 4850,
+        "bio": "Chef Mawa Begum is a rising star in the culinary world. She is a graduate of the Culinary Institute of Bangladesh and has been working as a professional chef for over 10 years. She is known for her expertise in preparing Bhuna Khichuri and Beef Kala Bhuna.",
         "recipes": [
             "Bhorta",
             "Fuchka",
             "Dal",
-            "Kacchi Biriyani"
+            "Kacchi_Biriyani"
         ]
     },
     {
         "id": 3,
-        "name": "Nizam Uddin",
+        "name": "Shawkat Osman",
         "photo": "https://cdn-icons-png.flaticon.com/512/3063/3063402.png",
+        "years_of_experience": 15,
+        "likes": 1257,
+        "bio": "Chef Shawkat Osman is a highly skilled chef from Chittagong, Bangladesh. He has been in the culinary industry for over 15 years and has a passion for creating unique and flavorful dishes. He is known for his expertise in preparing Fuchka and Bhorta.",
         "recipes": [
-            "Sheek Kebab with Naan",
-            "Shorshe Ilish",
-            "Kacchi Biriyani"
+            "Fuchka",
+            "Bhorta",
+            "Dal",
+            "Sheek_Kebab_with_Naan"
         ]
     },
     {
         "id": 4,
         "name": "Khairul Alam",
         "photo": "https://cdn-icons-png.flaticon.com/512/3063/3063402.png",
+        "years_of_experience": 12,
+        "likes": 5003,
+        "bio": "Chef Monirul Islam is a renowned chef from Dhaka, Bangladesh. He has over 12 years of experience in cooking traditional Bangladeshi cuisine and has won multiple awards for his culinary skills. He is known for his expertise in preparing Kacchi Biriyani and Shorshe Ilish.",
         "recipes": [
             "Bhorta",
-            "Fish Curry",
-            "Bhuna Khichuri with Dim Bhaji"
+            "Fish_Curry",
+            "Bhuna_Khichuri"
         ]
     }
 ]
+
