@@ -16,13 +16,24 @@ app.get('/chefs', (req, res) => {
 
 app.get('/chefs/:id', (req, res) => {
     const id = parseInt(req.params.id)
-    console.log(id);
+    // console.log(id);
     const chef = chefs.find(ch => ch.id === id);
     res.send(chef)
 })
 
 app.get('/recipe', (req, res)=>{
     res.send(recipe);
+})
+
+app.get('/recipe/:name', (req, res)=>{
+
+    const name = req.params.name.toLowerCase;
+    
+    const select = recipe.find( rc => rc.name.toLowerCase === name);
+    res.send(select)
+    
+
+
 })
 
 app.listen(port, () => {
