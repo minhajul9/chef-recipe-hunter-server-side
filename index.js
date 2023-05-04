@@ -4,6 +4,7 @@ const app = express();
 const port = 5000;
 
 const chefs = require('./data/chefs.json')
+const recipe = require('./data/recipe.json')
 
 app.get('/', (req, res)=>{
     res.send('running on port');
@@ -18,6 +19,10 @@ app.get('/chefs/:id', (req, res) => {
     console.log(id);
     const chef = chefs.find(ch => ch.id === id);
     res.send(chef)
+})
+
+app.get('/recipe', (req, res)=>{
+    res.send(recipe);
 })
 
 app.listen(port, () => {
