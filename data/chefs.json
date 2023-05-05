@@ -41,7 +41,7 @@
             },
             {
                 "id": 2,
-                "rating": 4.5,
+                "rating": 4.2,
                 "name": "Kacchi_Biriyani",
                 "recipe": {
                     "ingredients": [
@@ -75,7 +75,7 @@
             },
             {
                 "id": 3,
-                "rating": 4.5,
+                "rating": 4.4,
                 "name": "Beef_Kala_Bhuna",
                 "recipe": {
                   "ingredients": [
@@ -108,7 +108,7 @@
               },
               {
                 "id": 5,
-                "rating": 4.5,
+                "rating": 4.6,
                 "name": "Sheek_Kebab_with_Naan",
                 "recipe": {
                   "ingredients": [
@@ -152,7 +152,7 @@
         "recipes": [
             {
                 "id": 7,
-                "rating": 4.5,
+                "rating": 4.0,
                 "name": "Bhorta",
                 "recipe": {
                   "ingredients": [
@@ -175,7 +175,7 @@
               },
               {
                 "id": 8,
-                "rating": 4.5,
+                "rating": 4.3,
                 "name": "Fuchka",
                 "recipe": {
                   "ingredients": [
@@ -206,7 +206,7 @@
               },
             {
                 "id": 6,
-                "rating": 4.5,
+                "rating": 3.9,
                 "name": "Dal",
                 "recipe": {
                   "ingredients": [
@@ -239,7 +239,7 @@
               },
             {
                 "id": 2,
-                "rating": 4.5,
+                "rating": 4.1,
                 "name": "Kacchi_Biriyani",
                 "recipe": {
                     "ingredients": [
@@ -314,7 +314,7 @@
               },
             {
                 "id": 7,
-                "rating": 4.5,
+                "rating": 4.3,
                 "name": "Bhorta",
                 "recipe": {
                   "ingredients": [
@@ -337,7 +337,7 @@
               },
             {
                 "id": 6,
-                "rating": 4.5,
+                "rating": 4.8,
                 "name": "Dal",
                 "recipe": {
                   "ingredients": [
@@ -370,7 +370,7 @@
               },
             {
                 "id": 5,
-                "rating": 4.5,
+                "rating": 4.1,
                 "name": "Sheek_Kebab_with_Naan",
                 "recipe": {
                   "ingredients": [
@@ -414,7 +414,7 @@
         "recipes": [
             {
                 "id": 7,
-                "rating": 4.5,
+                "rating": 4.8,
                 "name": "Bhorta",
                 "recipe": {
                   "ingredients": [
@@ -469,7 +469,7 @@
             },
             {
                 "id": 4,
-                "rating": 4.5,
+                "rating": 4.3,
                 "name": "Bhuna_Khichuri",
                 "recipe": {
                   "ingredients": [
@@ -516,7 +516,7 @@
         "recipes": [
             {
                 "id": 8,
-                "rating": 4.5,
+                "rating": 4.0,
                 "name": "Fuchka",
                 "recipe": {
                   "ingredients": [
@@ -547,7 +547,7 @@
               },
             {
                 "id": 7,
-                "rating": 4.5,
+                "rating": 4.1,
                 "name": "Bhorta",
                 "recipe": {
                   "ingredients": [
@@ -570,7 +570,7 @@
               },
             {
                 "id": 3,
-                "rating": 4.5,
+                "rating": 3.8,
                 "name": "Beef_Kala_Bhuna",
                 "recipe": {
                   "ingredients": [
@@ -603,7 +603,7 @@
               },
             {
                 "id": 1,
-                "rating": 4.5,
+                "rating": 4.0,
                 "name": "Shorshe_Ilish",
                 "recipe": {
                     "ingredients": [
@@ -645,7 +645,7 @@
         "recipes": [
             {
                 "id": 4,
-                "rating": 4.5,
+                "rating": 4.9,
                 "name": "Bhuna_Khichuri",
                 "recipe": {
                   "ingredients": [
@@ -682,7 +682,7 @@
               },
               {
                 "id": 1,
-                "rating": 4.5,
+                "rating": 5,
                 "name": "Shorshe_Ilish",
                 "recipe": {
                     "ingredients": [
@@ -714,7 +714,7 @@
             },
             {
                 "id": 3,
-                "rating": 4.5,
+                "rating": 4.8,
                 "name": "Beef_Kala_Bhuna",
                 "recipe": {
                   "ingredients": [
@@ -747,7 +747,7 @@
               },
             {
                 "id": 2,
-                "rating": 4.5,
+                "rating": 4.3,
                 "name": "Kacchi_Biriyani",
                 "recipe": {
                     "ingredients": [
