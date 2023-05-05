@@ -39,7 +39,7 @@ app.get('/chef/:id/:name', (req, res)=>{
     // console.log(recps);
 
     const recp = chef.recipes.find( ch => ch.id === rid);
-    console.log(recp);
+    // console.log(recp);
 
     res.send(recp)
     
