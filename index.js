@@ -29,13 +29,22 @@ app.get('/recipe', (req, res)=>{
     res.send(recipe);
 })
 
-app.get('/recipe/:name', (req, res)=>{
+app.get('/chef/:id/:name', (req, res)=>{
 
-    const newName = req.params.name;
-    console.log(newName);
+    const id = parseInt(req.params.id);
+    const rid = parseInt(req.params.name);
+
+    const chef = chefs.find(ch => ch.id === id)
+    const recps = chef.recipe
+    // console.log(recps);
+
+    const recp = chef.recipes.find( ch => ch.id === rid);
+    console.log(recp);
+
+    res.send(recp)
     
-    const select = recipe.find( rc => rc.name == newName);
-    res.send(select)
+    
+    
     
 
 

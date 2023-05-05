@@ -7,10 +7,139 @@
         "likes": 4553,
         "bio": "Chef Monirul Islam is a renowned chef from Dhaka, Bangladesh. He has over 20 years of experience in cooking traditional Bangladeshi cuisine and has won multiple awards for his culinary skills. He is known for his expertise in preparing Kacchi Biriyani and Shorshe Ilish.",
         "recipes": [
-            "Shorshe_Ilish",
-            "Kacchi_Biriyani",
-            "Beef_Kala_Bhuna",
-            "Sheek_Kebab_with_Naan"
+            {
+                "id": 1,
+                "rating": 4.5,
+                "name": "Shorshe_Ilish",
+                "recipe": {
+                    "ingredients": [
+                        "4-5 pieces of Hilsa fish",
+                        "1/2 cup mustard paste",
+                        "1/2 tsp turmeric powder",
+                        "1/2 tsp red chili powder",
+                        "1/2 tsp salt",
+                        "3-4 green chilies",
+                        "1 tbsp mustard oil",
+                        "1/2 tsp nigella seeds",
+                        "1/2 tsp fenugreek seeds",
+                        "1/2 tsp cumin seeds",
+                        "1/2 tsp fennel seeds",
+                        "1/2 tsp black mustard seeds"
+                    ],
+                    "steps": [
+                        "Wash the Hilsa fish pieces and marinate with turmeric, red chili powder, and salt.",
+                        "Heat mustard oil in a pan and fry the fish pieces until golden brown.",
+                        "In the same oil, add nigella seeds, fenugreek seeds, cumin seeds, fennel seeds, and black mustard seeds.",
+                        "Add the green chilies and fry for a few seconds.",
+                        "Add the mustard paste and water. Cook for 2-3 minutes.",
+                        "Add the fried fish pieces and cook for another 5 minutes.",
+                        "Serve hot with steamed rice."
+                    ]
+                },
+                "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/A_photo_of_popular_Bengali_dish_Sorshe_Ilish_served_traditionally.jpg/1200px-A_photo_of_popular_Bengali_dish_Sorshe_Ilish_served_traditionally.jpg",
+                "location": "Bangladesh"
+            },
+            {
+                "id": 2,
+                "rating": 4.5,
+                "name": "Kacchi_Biriyani",
+                "recipe": {
+                    "ingredients": [
+                        "1 kg basmati rice",
+                        "1 kg mutton",
+                        "2 cups yogurt",
+                        "1 cup ghee",
+                        "1 cup fried onions",
+                        "1/2 cup milk",
+                        "1/2 cup rose water",
+                        "2 tsp saffron",
+                        "2 tsp cumin powder",
+                        "2 tsp coriander powder",
+                        "2 tsp red chili powder",
+                        "2 tsp turmeric powder",
+                        "2 tsp garam masala powder",
+                        "2 tsp salt"
+                    ],
+                    "steps": [
+                        "Marinate the mutton with yogurt, cumin powder, coriander powder, red chili powder, turmeric powder, garam masala powder, and salt.",
+                        "Soak the saffron in milk and rose water.",
+                        "Parboil the rice and drain the water.",
+                        "In a large pot, layer the rice and mutton with fried onions and ghee.",
+                        "Add the saffron milk mixture on top and cover tightly with a lid.",
+                        "Cook on low heat for 2 hours.",
+                        "Serve hot with raita and salad."
+                    ]
+                },
+                "photo": "https://www.dhakafoodster.com/wp-content/uploads/2021/06/Sultan%E2%80%99s-Diner-Mirpur-Kacchi-Biriyani-1.jpg",
+                "location": "Bangladesh"
+            },
+            {
+                "id": 3,
+                "rating": 4.5,
+                "name": "Beef_Kala_Bhuna",
+                "recipe": {
+                  "ingredients": [
+                    "1 kg beef, cut into small pieces",
+                    "2 cups sliced onions",
+                    "1/2 cup ginger paste",
+                    "1/2 cup garlic paste",
+                    "1/2 cup yogurt",
+                    "1/2 cup tomato puree",
+                    "1/2 cup mustard oil",
+                    "2 tsp cumin powder",
+                    "2 tsp coriander powder",
+                    "2 tsp red chili powder",
+                    "2 tsp turmeric powder",
+                    "2 tsp garam masala powder",
+                    "1 tsp sugar",
+                    "Salt to taste"
+                  ],
+                  "steps": [
+                    "In a pot, heat mustard oil and fry the onions until golden brown.",
+                    "Add the beef and fry for 5-7 minutes until browned.",
+                    "Add ginger paste, garlic paste, cumin powder, coriander powder, red chili powder, turmeric powder, garam masala powder, and salt. Fry for a few minutes.",
+                    "Add yogurt and tomato puree. Cook for 10-12 minutes until the beef is tender and the gravy is thick.",
+                    "Add sugar and cook for another 2-3 minutes.",
+                    "Serve hot with steamed rice or naan bread."
+                  ]
+                },
+                "photo": "https://10minutesrecipe.com/wp-content/uploads/2022/04/Beef-Kala-Bhuna-Recipe.jpg",
+                "location": "Bangladesh"
+              },
+              {
+                "id": 5,
+                "rating": 4.5,
+                "name": "Sheek_Kebab_with_Naan",
+                "recipe": {
+                  "ingredients": [
+                    "500g lamb or beef mince",
+                    "2 onions, finely chopped",
+                    "4 garlic cloves, crushed",
+                    "2 tsp ground cumin",
+                    "2 tsp ground coriander",
+                    "1 tsp ground turmeric",
+                    "1 tsp garam masala",
+                    "1/2 tsp chili powder",
+                    "1/2 tsp salt",
+                    "2 tbsp chopped fresh coriander",
+                    "1 egg, beaten",
+                    "6-8 wooden skewers",
+                    "Naan bread, to serve"
+                  ],
+                  "steps": [
+                    "In a large bowl, mix together the lamb or beef mince, onions, garlic, ground cumin, ground coriander, ground turmeric, garam masala, chili powder, salt, chopped fresh coriander, and beaten egg.",
+                    "Knead the mixture well until it is smooth and well combined.",
+                    "Cover and refrigerate for at least 1 hour to allow the flavors to develop.",
+                    "Soak the wooden skewers in water for 30 minutes to prevent them from burning.",
+                    "Divide the meat mixture into 6-8 portions and shape each portion around a skewer to form a long sausage shape.",
+                    "Preheat the grill or barbecue to high.",
+                    "Grill the kebabs for 8-10 minutes, turning occasionally, until they are cooked through and lightly charred.",
+                    "Serve the kebabs hot with naan bread."
+                  ]
+                },
+                "photo": "https://imagevars.gulfnews.com/2021/09/20/Guide-to-making-seekh-kebab-naan-_17c02cff737_original-ratio.jpg",
+                "location": "Bangladesh"
+              }
         ]
     },
     {
@@ -21,10 +150,127 @@
         "likes": 4850,
         "bio": "Chef Mawa Begum is a rising star in the culinary world. She is a graduate of the Culinary Institute of Bangladesh and has been working as a professional chef for over 10 years. She is known for her expertise in preparing Bhuna Khichuri and Beef Kala Bhuna.",
         "recipes": [
-            "Bhorta",
-            "Fuchka",
-            "Dal",
-            "Kacchi_Biriyani"
+            {
+                "id": 7,
+                "rating": 4.5,
+                "name": "Bhorta",
+                "recipe": {
+                  "ingredients": [
+                    "2 cups mashed boiled vegetables (potatoes, eggplants, tomatoes, onions, etc.)",
+                    "2 tablespoons mustard oil",
+                    "1 teaspoon mustard paste",
+                    "1 teaspoon chili powder",
+                    "Salt to taste"
+                  ],
+                  "steps": [
+                    "Heat the mustard oil in a pan.",
+                    "Add the mashed vegetables and cook for 5-7 minutes.",
+                    "Add the mustard paste, chili powder, and salt.",
+                    "Cook for another 2-3 minutes, stirring constantly.",
+                    "Serve hot with rice or flatbread."
+                  ]
+                },
+                "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Vorta.jpg/1280px-Vorta.jpg",
+                "location": "Bangladesh"
+              },
+              {
+                "id": 8,
+                "rating": 4.5,
+                "name": "Fuchka",
+                "recipe": {
+                  "ingredients": [
+                    "1 cup semolina",
+                    "1 cup all-purpose flour",
+                    "1 teaspoon salt",
+                    "1 teaspoon baking powder",
+                    "1 cup water",
+                    "1 cup chickpeas, boiled and mashed",
+                    "1 tablespoon tamarind paste",
+                    "1 teaspoon chili powder",
+                    "1 teaspoon cumin powder",
+                    "Salt to taste"
+                  ],
+                  "steps": [
+                    "Mix the semolina, flour, salt, and baking powder in a bowl.",
+                    "Add water and knead into a smooth dough.",
+                    "Cover the dough with a damp cloth and let it rest for 30 minutes.",
+                    "Divide the dough into small balls and roll out each ball into a thin circle.",
+                    "Fry the circles in hot oil until golden brown.",
+                    "Mix the mashed chickpeas, tamarind paste, chili powder, cumin powder, and salt in a bowl.",
+                    "Stuff the fried circles with the chickpea mixture.",
+                    "Serve immediately."
+                  ]
+                },
+                "photo": "https://www.dhakafoodster.com/wp-content/uploads/2020/09/Banani-11-bridge-fuchka.jpg",
+                "location": "Bangladesh"
+              },
+            {
+                "id": 6,
+                "rating": 4.5,
+                "name": "Dal",
+                "recipe": {
+                  "ingredients": [
+                    "1 cup red lentils, washed and drained",
+                    "4 cups water",
+                    "1 onion, chopped",
+                    "2 garlic cloves, crushed",
+                    "1 tsp ground cumin",
+                    "1 tsp ground coriander",
+                    "1/2 tsp ground turmeric",
+                    "1/2 tsp chili powder",
+                    "1 tsp salt",
+                    "2 tbsp vegetable oil",
+                    "1 tbsp ghee",
+                    "1 tbsp fresh coriander leaves, chopped",
+                    "Lemon wedges, to serve"
+                  ],
+                  "steps": [
+                    "In a large pot, combine the lentils, water, onion, garlic, ground cumin, ground coriander, ground turmeric, chili powder, and salt.",
+                    "Bring the mixture to a boil over high heat.",
+                    "Reduce the heat to low, cover the pot, and simmer for 20-25 minutes, or until the lentils are tender and the soup is thick and creamy.",
+                    "In a small pan, heat the vegetable oil and ghee over medium heat.",
+                    "Add the chopped fresh coriander and fry for 1-2 minutes, or until the coriander is crispy and fragrant.",
+                    "Ladle the soup into bowls and top with the fried coriander.",
+                    "Serve hot with lemon wedges and steamed rice."
+                  ]
+                },
+                "photo": "https://www.whiskaffair.com/wp-content/uploads/2020/04/North-Indian-Homestyle-Toor-Dal-2-3.jpg",
+                "location": "Bangladesh"
+              },
+            {
+                "id": 2,
+                "rating": 4.5,
+                "name": "Kacchi_Biriyani",
+                "recipe": {
+                    "ingredients": [
+                        "1 kg basmati rice",
+                        "1 kg mutton",
+                        "2 cups yogurt",
+                        "1 cup ghee",
+                        "1 cup fried onions",
+                        "1/2 cup milk",
+                        "1/2 cup rose water",
+                        "2 tsp saffron",
+                        "2 tsp cumin powder",
+                        "2 tsp coriander powder",
+                        "2 tsp red chili powder",
+                        "2 tsp turmeric powder",
+                        "2 tsp garam masala powder",
+                        "2 tsp salt"
+                    ],
+                    "steps": [
+                        "Marinate the mutton with yogurt, cumin powder, coriander powder, red chili powder, turmeric powder, garam masala powder, and salt.",
+                        "Soak the saffron in milk and rose water.",
+                        "Parboil the rice and drain the water.",
+                        "In a large pot, layer the rice and mutton with fried onions and ghee.",
+                        "Add the saffron milk mixture on top and cover tightly with a lid.",
+                        "Cook on low heat for 2 hours.",
+                        "Serve hot with raita and salad."
+                    ]
+                },
+                "photo": "https://www.dhakafoodster.com/wp-content/uploads/2021/06/Sultan%E2%80%99s-Diner-Mirpur-Kacchi-Biriyani-1.jpg",
+                "location": "Bangladesh"
+            }
         ]
     },
     {
@@ -35,10 +281,127 @@
         "likes": 1257,
         "bio": "Chef Shawkat Osman is a highly skilled chef from Chittagong, Bangladesh. He has been in the culinary industry for over 15 years and has a passion for creating unique and flavorful dishes. He is known for his expertise in preparing Fuchka and Bhorta.",
         "recipes": [
-            "Fuchka",
-            "Bhorta",
-            "Dal",
-            "Sheek_Kebab_with_Naan"
+            {
+                "id": 8,
+                "rating": 4.5,
+                "name": "Fuchka",
+                "recipe": {
+                  "ingredients": [
+                    "1 cup semolina",
+                    "1 cup all-purpose flour",
+                    "1 teaspoon salt",
+                    "1 teaspoon baking powder",
+                    "1 cup water",
+                    "1 cup chickpeas, boiled and mashed",
+                    "1 tablespoon tamarind paste",
+                    "1 teaspoon chili powder",
+                    "1 teaspoon cumin powder",
+                    "Salt to taste"
+                  ],
+                  "steps": [
+                    "Mix the semolina, flour, salt, and baking powder in a bowl.",
+                    "Add water and knead into a smooth dough.",
+                    "Cover the dough with a damp cloth and let it rest for 30 minutes.",
+                    "Divide the dough into small balls and roll out each ball into a thin circle.",
+                    "Fry the circles in hot oil until golden brown.",
+                    "Mix the mashed chickpeas, tamarind paste, chili powder, cumin powder, and salt in a bowl.",
+                    "Stuff the fried circles with the chickpea mixture.",
+                    "Serve immediately."
+                  ]
+                },
+                "photo": "https://www.dhakafoodster.com/wp-content/uploads/2020/09/Banani-11-bridge-fuchka.jpg",
+                "location": "Bangladesh"
+              },
+            {
+                "id": 7,
+                "rating": 4.5,
+                "name": "Bhorta",
+                "recipe": {
+                  "ingredients": [
+                    "2 cups mashed boiled vegetables (potatoes, eggplants, tomatoes, onions, etc.)",
+                    "2 tablespoons mustard oil",
+                    "1 teaspoon mustard paste",
+                    "1 teaspoon chili powder",
+                    "Salt to taste"
+                  ],
+                  "steps": [
+                    "Heat the mustard oil in a pan.",
+                    "Add the mashed vegetables and cook for 5-7 minutes.",
+                    "Add the mustard paste, chili powder, and salt.",
+                    "Cook for another 2-3 minutes, stirring constantly.",
+                    "Serve hot with rice or flatbread."
+                  ]
+                },
+                "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Vorta.jpg/1280px-Vorta.jpg",
+                "location": "Bangladesh"
+              },
+            {
+                "id": 6,
+                "rating": 4.5,
+                "name": "Dal",
+                "recipe": {
+                  "ingredients": [
+                    "1 cup red lentils, washed and drained",
+                    "4 cups water",
+                    "1 onion, chopped",
+                    "2 garlic cloves, crushed",
+                    "1 tsp ground cumin",
+                    "1 tsp ground coriander",
+                    "1/2 tsp ground turmeric",
+                    "1/2 tsp chili powder",
+                    "1 tsp salt",
+                    "2 tbsp vegetable oil",
+                    "1 tbsp ghee",
+                    "1 tbsp fresh coriander leaves, chopped",
+                    "Lemon wedges, to serve"
+                  ],
+                  "steps": [
+                    "In a large pot, combine the lentils, water, onion, garlic, ground cumin, ground coriander, ground turmeric, chili powder, and salt.",
+                    "Bring the mixture to a boil over high heat.",
+                    "Reduce the heat to low, cover the pot, and simmer for 20-25 minutes, or until the lentils are tender and the soup is thick and creamy.",
+                    "In a small pan, heat the vegetable oil and ghee over medium heat.",
+                    "Add the chopped fresh coriander and fry for 1-2 minutes, or until the coriander is crispy and fragrant.",
+                    "Ladle the soup into bowls and top with the fried coriander.",
+                    "Serve hot with lemon wedges and steamed rice."
+                  ]
+                },
+                "photo": "https://www.whiskaffair.com/wp-content/uploads/2020/04/North-Indian-Homestyle-Toor-Dal-2-3.jpg",
+                "location": "Bangladesh"
+              },
+            {
+                "id": 5,
+                "rating": 4.5,
+                "name": "Sheek_Kebab_with_Naan",
+                "recipe": {
+                  "ingredients": [
+                    "500g lamb or beef mince",
+                    "2 onions, finely chopped",
+                    "4 garlic cloves, crushed",
+                    "2 tsp ground cumin",
+                    "2 tsp ground coriander",
+                    "1 tsp ground turmeric",
+                    "1 tsp garam masala",
+                    "1/2 tsp chili powder",
+                    "1/2 tsp salt",
+                    "2 tbsp chopped fresh coriander",
+                    "1 egg, beaten",
+                    "6-8 wooden skewers",
+                    "Naan bread, to serve"
+                  ],
+                  "steps": [
+                    "In a large bowl, mix together the lamb or beef mince, onions, garlic, ground cumin, ground coriander, ground turmeric, garam masala, chili powder, salt, chopped fresh coriander, and beaten egg.",
+                    "Knead the mixture well until it is smooth and well combined.",
+                    "Cover and refrigerate for at least 1 hour to allow the flavors to develop.",
+                    "Soak the wooden skewers in water for 30 minutes to prevent them from burning.",
+                    "Divide the meat mixture into 6-8 portions and shape each portion around a skewer to form a long sausage shape.",
+                    "Preheat the grill or barbecue to high.",
+                    "Grill the kebabs for 8-10 minutes, turning occasionally, until they are cooked through and lightly charred.",
+                    "Serve the kebabs hot with naan bread."
+                  ]
+                },
+                "photo": "https://imagevars.gulfnews.com/2021/09/20/Guide-to-making-seekh-kebab-naan-_17c02cff737_original-ratio.jpg",
+                "location": "Bangladesh"
+              }
         ]
     },
     {
@@ -49,9 +412,373 @@
         "likes": 5003,
         "bio": "Chef Monirul Islam is a renowned chef from Dhaka, Bangladesh. He has over 12 years of experience in cooking traditional Bangladeshi cuisine and has won multiple awards for his culinary skills. He is known for his expertise in preparing Kacchi Biriyani and Shorshe Ilish.",
         "recipes": [
-            "Bhorta",
-            "Fish_Curry",
-            "Bhuna_Khichuri"
+            {
+                "id": 7,
+                "rating": 4.5,
+                "name": "Bhorta",
+                "recipe": {
+                  "ingredients": [
+                    "2 cups mashed boiled vegetables (potatoes, eggplants, tomatoes, onions, etc.)",
+                    "2 tablespoons mustard oil",
+                    "1 teaspoon mustard paste",
+                    "1 teaspoon chili powder",
+                    "Salt to taste"
+                  ],
+                  "steps": [
+                    "Heat the mustard oil in a pan.",
+                    "Add the mashed vegetables and cook for 5-7 minutes.",
+                    "Add the mustard paste, chili powder, and salt.",
+                    "Cook for another 2-3 minutes, stirring constantly.",
+                    "Serve hot with rice or flatbread."
+                  ]
+                },
+                "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Vorta.jpg/1280px-Vorta.jpg",
+                "location": "Bangladesh"
+              },
+            {
+                "id": 1,
+                "rating": 4.5,
+                "name": "Shorshe_Ilish",
+                "recipe": {
+                    "ingredients": [
+                        "4-5 pieces of Hilsa fish",
+                        "1/2 cup mustard paste",
+                        "1/2 tsp turmeric powder",
+                        "1/2 tsp red chili powder",
+                        "1/2 tsp salt",
+                        "3-4 green chilies",
+                        "1 tbsp mustard oil",
+                        "1/2 tsp nigella seeds",
+                        "1/2 tsp fenugreek seeds",
+                        "1/2 tsp cumin seeds",
+                        "1/2 tsp fennel seeds",
+                        "1/2 tsp black mustard seeds"
+                    ],
+                    "steps": [
+                        "Wash the Hilsa fish pieces and marinate with turmeric, red chili powder, and salt.",
+                        "Heat mustard oil in a pan and fry the fish pieces until golden brown.",
+                        "In the same oil, add nigella seeds, fenugreek seeds, cumin seeds, fennel seeds, and black mustard seeds.",
+                        "Add the green chilies and fry for a few seconds.",
+                        "Add the mustard paste and water. Cook for 2-3 minutes.",
+                        "Add the fried fish pieces and cook for another 5 minutes.",
+                        "Serve hot with steamed rice."
+                    ]
+                },
+                "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/A_photo_of_popular_Bengali_dish_Sorshe_Ilish_served_traditionally.jpg/1200px-A_photo_of_popular_Bengali_dish_Sorshe_Ilish_served_traditionally.jpg",
+                "location": "Bangladesh"
+            },
+            {
+                "id": 4,
+                "rating": 4.5,
+                "name": "Bhuna_Khichuri",
+                "recipe": {
+                  "ingredients": [
+                    "1 cup rice",
+                    "1 cup red lentils",
+                    "1/2 cup split peas",
+                    "1/2 cup chopped onions",
+                    "1/2 cup chopped tomatoes",
+                    "1 tbsp ginger paste",
+                    "1 tbsp garlic paste",
+                    "2 tsp cumin powder",
+                    "2 tsp coriander powder",
+                    "2 tsp turmeric powder",
+                    "1 tsp red chili powder",
+                    "4-5 green chilies",
+                    "1/2 cup mustard oil",
+                    "Salt to taste",
+                    "3 cups water",
+                    "2 eggs"
+                  ],
+                  "steps": [
+                    "Wash the rice, lentils, and split peas and soak in water for 30 minutes.",
+                    "In a pan, heat mustard oil and fry the onions until golden brown.",
+                    "Add ginger paste, garlic paste, cumin powder, coriander powder, turmeric powder, red chili powder, and salt. Fry for a few minutes.",
+                    "Add the chopped tomatoes and green chilies. Cook for 2-3 minutes.",
+                    "Add the soaked rice, lentils, and split peas. Fry for 5-7 minutes.",
+                    "Add water and bring to a boil. Cover and cook on low heat for 15-20 minutes until the rice and lentils are cooked and the water is absorbed.",
+                    "In a separate pan, fry the eggs and serve with the khichuri.",
+                    "Serve hot with dim bhaji (omelette) and chutney."
+                  ]
+                },
+                "photo": "https://rumkisgoldenspoon.com/wp-content/uploads/2021/05/Bhuna-khichuri-recipe.jpg",
+                "location": "Bangladesh"
+              }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Sirajul Islam",
+        "photo": "https://cdn-icons-png.flaticon.com/512/3063/3063402.png",
+        "years_of_experience": 5,
+        "likes": 557,
+        "bio": "Chef Sirajul Islam is a highly skilled chef from Chittagong, Bangladesh. He has been in the culinary industry for over 5 years and has a passion for creating unique and flavorful dishes. He is known for his expertise in preparing Fuchka and Kala Bhuna.",
+        "recipes": [
+            {
+                "id": 8,
+                "rating": 4.5,
+                "name": "Fuchka",
+                "recipe": {
+                  "ingredients": [
+                    "1 cup semolina",
+                    "1 cup all-purpose flour",
+                    "1 teaspoon salt",
+                    "1 teaspoon baking powder",
+                    "1 cup water",
+                    "1 cup chickpeas, boiled and mashed",
+                    "1 tablespoon tamarind paste",
+                    "1 teaspoon chili powder",
+                    "1 teaspoon cumin powder",
+                    "Salt to taste"
+                  ],
+                  "steps": [
+                    "Mix the semolina, flour, salt, and baking powder in a bowl.",
+                    "Add water and knead into a smooth dough.",
+                    "Cover the dough with a damp cloth and let it rest for 30 minutes.",
+                    "Divide the dough into small balls and roll out each ball into a thin circle.",
+                    "Fry the circles in hot oil until golden brown.",
+                    "Mix the mashed chickpeas, tamarind paste, chili powder, cumin powder, and salt in a bowl.",
+                    "Stuff the fried circles with the chickpea mixture.",
+                    "Serve immediately."
+                  ]
+                },
+                "photo": "https://www.dhakafoodster.com/wp-content/uploads/2020/09/Banani-11-bridge-fuchka.jpg",
+                "location": "Bangladesh"
+              },
+            {
+                "id": 7,
+                "rating": 4.5,
+                "name": "Bhorta",
+                "recipe": {
+                  "ingredients": [
+                    "2 cups mashed boiled vegetables (potatoes, eggplants, tomatoes, onions, etc.)",
+                    "2 tablespoons mustard oil",
+                    "1 teaspoon mustard paste",
+                    "1 teaspoon chili powder",
+                    "Salt to taste"
+                  ],
+                  "steps": [
+                    "Heat the mustard oil in a pan.",
+                    "Add the mashed vegetables and cook for 5-7 minutes.",
+                    "Add the mustard paste, chili powder, and salt.",
+                    "Cook for another 2-3 minutes, stirring constantly.",
+                    "Serve hot with rice or flatbread."
+                  ]
+                },
+                "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Vorta.jpg/1280px-Vorta.jpg",
+                "location": "Bangladesh"
+              },
+            {
+                "id": 3,
+                "rating": 4.5,
+                "name": "Beef_Kala_Bhuna",
+                "recipe": {
+                  "ingredients": [
+                    "1 kg beef, cut into small pieces",
+                    "2 cups sliced onions",
+                    "1/2 cup ginger paste",
+                    "1/2 cup garlic paste",
+                    "1/2 cup yogurt",
+                    "1/2 cup tomato puree",
+                    "1/2 cup mustard oil",
+                    "2 tsp cumin powder",
+                    "2 tsp coriander powder",
+                    "2 tsp red chili powder",
+                    "2 tsp turmeric powder",
+                    "2 tsp garam masala powder",
+                    "1 tsp sugar",
+                    "Salt to taste"
+                  ],
+                  "steps": [
+                    "In a pot, heat mustard oil and fry the onions until golden brown.",
+                    "Add the beef and fry for 5-7 minutes until browned.",
+                    "Add ginger paste, garlic paste, cumin powder, coriander powder, red chili powder, turmeric powder, garam masala powder, and salt. Fry for a few minutes.",
+                    "Add yogurt and tomato puree. Cook for 10-12 minutes until the beef is tender and the gravy is thick.",
+                    "Add sugar and cook for another 2-3 minutes.",
+                    "Serve hot with steamed rice or naan bread."
+                  ]
+                },
+                "photo": "https://10minutesrecipe.com/wp-content/uploads/2022/04/Beef-Kala-Bhuna-Recipe.jpg",
+                "location": "Bangladesh"
+              },
+            {
+                "id": 1,
+                "rating": 4.5,
+                "name": "Shorshe_Ilish",
+                "recipe": {
+                    "ingredients": [
+                        "4-5 pieces of Hilsa fish",
+                        "1/2 cup mustard paste",
+                        "1/2 tsp turmeric powder",
+                        "1/2 tsp red chili powder",
+                        "1/2 tsp salt",
+                        "3-4 green chilies",
+                        "1 tbsp mustard oil",
+                        "1/2 tsp nigella seeds",
+                        "1/2 tsp fenugreek seeds",
+                        "1/2 tsp cumin seeds",
+                        "1/2 tsp fennel seeds",
+                        "1/2 tsp black mustard seeds"
+                    ],
+                    "steps": [
+                        "Wash the Hilsa fish pieces and marinate with turmeric, red chili powder, and salt.",
+                        "Heat mustard oil in a pan and fry the fish pieces until golden brown.",
+                        "In the same oil, add nigella seeds, fenugreek seeds, cumin seeds, fennel seeds, and black mustard seeds.",
+                        "Add the green chilies and fry for a few seconds.",
+                        "Add the mustard paste and water. Cook for 2-3 minutes.",
+                        "Add the fried fish pieces and cook for another 5 minutes.",
+                        "Serve hot with steamed rice."
+                    ]
+                },
+                "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/A_photo_of_popular_Bengali_dish_Sorshe_Ilish_served_traditionally.jpg/1200px-A_photo_of_popular_Bengali_dish_Sorshe_Ilish_served_traditionally.jpg",
+                "location": "Bangladesh"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Mohammad Musa",
+        "photo": "https://cdn-icons-png.flaticon.com/512/3063/3063402.png",
+        "years_of_experience": 12,
+        "likes": 10153,
+        "bio": "Chef Mohammad Musa is a renowned chef from Chittagong, Bangladesh. He has over 18 years of experience in cooking traditional Bangladeshi cuisine and has won multiple awards for his culinary skills. He is known for his expertise in preparing Kacchi Biriyani and Shorshe Ilish.",
+        "recipes": [
+            {
+                "id": 4,
+                "rating": 4.5,
+                "name": "Bhuna_Khichuri",
+                "recipe": {
+                  "ingredients": [
+                    "1 cup rice",
+                    "1 cup red lentils",
+                    "1/2 cup split peas",
+                    "1/2 cup chopped onions",
+                    "1/2 cup chopped tomatoes",
+                    "1 tbsp ginger paste",
+                    "1 tbsp garlic paste",
+                    "2 tsp cumin powder",
+                    "2 tsp coriander powder",
+                    "2 tsp turmeric powder",
+                    "1 tsp red chili powder",
+                    "4-5 green chilies",
+                    "1/2 cup mustard oil",
+                    "Salt to taste",
+                    "3 cups water",
+                    "2 eggs"
+                  ],
+                  "steps": [
+                    "Wash the rice, lentils, and split peas and soak in water for 30 minutes.",
+                    "In a pan, heat mustard oil and fry the onions until golden brown.",
+                    "Add ginger paste, garlic paste, cumin powder, coriander powder, turmeric powder, red chili powder, and salt. Fry for a few minutes.",
+                    "Add the chopped tomatoes and green chilies. Cook for 2-3 minutes.",
+                    "Add the soaked rice, lentils, and split peas. Fry for 5-7 minutes.",
+                    "Add water and bring to a boil. Cover and cook on low heat for 15-20 minutes until the rice and lentils are cooked and the water is absorbed.",
+                    "In a separate pan, fry the eggs and serve with the khichuri.",
+                    "Serve hot with dim bhaji (omelette) and chutney."
+                  ]
+                },
+                "photo": "https://rumkisgoldenspoon.com/wp-content/uploads/2021/05/Bhuna-khichuri-recipe.jpg",
+                "location": "Bangladesh"
+              },
+              {
+                "id": 1,
+                "rating": 4.5,
+                "name": "Shorshe_Ilish",
+                "recipe": {
+                    "ingredients": [
+                        "4-5 pieces of Hilsa fish",
+                        "1/2 cup mustard paste",
+                        "1/2 tsp turmeric powder",
+                        "1/2 tsp red chili powder",
+                        "1/2 tsp salt",
+                        "3-4 green chilies",
+                        "1 tbsp mustard oil",
+                        "1/2 tsp nigella seeds",
+                        "1/2 tsp fenugreek seeds",
+                        "1/2 tsp cumin seeds",
+                        "1/2 tsp fennel seeds",
+                        "1/2 tsp black mustard seeds"
+                    ],
+                    "steps": [
+                        "Wash the Hilsa fish pieces and marinate with turmeric, red chili powder, and salt.",
+                        "Heat mustard oil in a pan and fry the fish pieces until golden brown.",
+                        "In the same oil, add nigella seeds, fenugreek seeds, cumin seeds, fennel seeds, and black mustard seeds.",
+                        "Add the green chilies and fry for a few seconds.",
+                        "Add the mustard paste and water. Cook for 2-3 minutes.",
+                        "Add the fried fish pieces and cook for another 5 minutes.",
+                        "Serve hot with steamed rice."
+                    ]
+                },
+                "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/A_photo_of_popular_Bengali_dish_Sorshe_Ilish_served_traditionally.jpg/1200px-A_photo_of_popular_Bengali_dish_Sorshe_Ilish_served_traditionally.jpg",
+                "location": "Bangladesh"
+            },
+            {
+                "id": 3,
+                "rating": 4.5,
+                "name": "Beef_Kala_Bhuna",
+                "recipe": {
+                  "ingredients": [
+                    "1 kg beef, cut into small pieces",
+                    "2 cups sliced onions",
+                    "1/2 cup ginger paste",
+                    "1/2 cup garlic paste",
+                    "1/2 cup yogurt",
+                    "1/2 cup tomato puree",
+                    "1/2 cup mustard oil",
+                    "2 tsp cumin powder",
+                    "2 tsp coriander powder",
+                    "2 tsp red chili powder",
+                    "2 tsp turmeric powder",
+                    "2 tsp garam masala powder",
+                    "1 tsp sugar",
+                    "Salt to taste"
+                  ],
+                  "steps": [
+                    "In a pot, heat mustard oil and fry the onions until golden brown.",
+                    "Add the beef and fry for 5-7 minutes until browned.",
+                    "Add ginger paste, garlic paste, cumin powder, coriander powder, red chili powder, turmeric powder, garam masala powder, and salt. Fry for a few minutes.",
+                    "Add yogurt and tomato puree. Cook for 10-12 minutes until the beef is tender and the gravy is thick.",
+                    "Add sugar and cook for another 2-3 minutes.",
+                    "Serve hot with steamed rice or naan bread."
+                  ]
+                },
+                "photo": "https://10minutesrecipe.com/wp-content/uploads/2022/04/Beef-Kala-Bhuna-Recipe.jpg",
+                "location": "Bangladesh"
+              },
+            {
+                "id": 2,
+                "rating": 4.5,
+                "name": "Kacchi_Biriyani",
+                "recipe": {
+                    "ingredients": [
+                        "1 kg basmati rice",
+                        "1 kg mutton",
+                        "2 cups yogurt",
+                        "1 cup ghee",
+                        "1 cup fried onions",
+                        "1/2 cup milk",
+                        "1/2 cup rose water",
+                        "2 tsp saffron",
+                        "2 tsp cumin powder",
+                        "2 tsp coriander powder",
+                        "2 tsp red chili powder",
+                        "2 tsp turmeric powder",
+                        "2 tsp garam masala powder",
+                        "2 tsp salt"
+                    ],
+                    "steps": [
+                        "Marinate the mutton with yogurt, cumin powder, coriander powder, red chili powder, turmeric powder, garam masala powder, and salt.",
+                        "Soak the saffron in milk and rose water.",
+                        "Parboil the rice and drain the water.",
+                        "In a large pot, layer the rice and mutton with fried onions and ghee.",
+                        "Add the saffron milk mixture on top and cover tightly with a lid.",
+                        "Cook on low heat for 2 hours.",
+                        "Serve hot with raita and salad."
+                    ]
+                },
+                "photo": "https://www.dhakafoodster.com/wp-content/uploads/2021/06/Sultan%E2%80%99s-Diner-Mirpur-Kacchi-Biriyani-1.jpg",
+                "location": "Bangladesh"
+            }
         ]
     }
 ]
